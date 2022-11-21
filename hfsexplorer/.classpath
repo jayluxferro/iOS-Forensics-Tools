@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output=".antbuild~" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/dist/lib/apache-ant-1.7.0-bzip2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/dist/lib/csframework.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/dist/lib/hfsx_dmglib.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/dist/lib/iharder-base64.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/dist/lib/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/lib/AppleJavaExtensions.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/lib/buildenumerator.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/HFSExplorer/lib/java_awt_Desktop.jar"/>
+	<classpathentry kind="lib" path="dist/lib/bcprov-jdk16-146.jar"/>
+	<classpathentry kind="lib" path="dist/lib/dd-plist.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

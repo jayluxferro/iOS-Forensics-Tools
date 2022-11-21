@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." default="all" name="HFSExplorer">
+  <property environment="env"/>
+  <property name="debuglevel" value="source,lines,vars"/>
+  <property name="java.target.level" value="1.5"/>
+  <property name="java.source.level" value="1.5"/>
+  <property name="java.source.dir" value="src"/>
+  <property name="manifest.source.dir" value="src.META-INF"/>
+  <!--<property name="builddir" value=".build~"/>-->
+  <property name="builddir" value=".antbuild~"/>
+  <property name="java.build.library.dir" value="lib"/>
+  <property name="java.runtime.library.dir" value="dist/lib"/>
+  <!--<property name="manifest.filename" value="${manifest.source.dir}/MANIFEST.MF"/>-->
+  <!--<property name="outjar.filename" value="${libdir}/torrenttoolbox.jar"/>-->
+  <property name="resources.srcdir" value="resource"/>
+  <property name="resources.destdir" value="${builddir}/res"/>
+  
+  <property name="target.all.jarmanifest" value="${manifest.source.dir}/MANIFEST.MF"/> 
+  <property name="target.all.outjarname" value="hfsx.jar"/>
+  <property name="target.all.outjar" value="${java.runtime.library.dir}/${target.all.outjarname}"/>
+ 
+  <property name="target.jparted.jarmanifest" value="${manifest.source.dir}/jparted/MANIFEST.MF"/>
+  <property name="target.jparted.outjar" value="targets/jparted/lib/jparted.jar"/>
+  
+  <path id="java.build.classpath">
+    <fileset dir="${java.runtime.library.dir}">
+      <include name="**/*.jar"/>
+      <exclude name="**/${target.all.outjarname}"/>
+    </fileset>
+    <fileset dir="${java.build.library.dir}">
+      <include name="**/*.jar"/>
+    </fileset>
+  </path>
+  
+  <path id="javadoc.classpath">
+    <path refid="java.build.classpath"/>
+  </path>
+
+  
+  <target name="all">
+    <echo message="Current well defined targets:"/>
+    <echo message="  build-all     - Compiles all files in all packages and puts the"/>
+    <echo message="                  result in dist/lib/hfsx.jar."/>
+    <echo message="  build-jparted - Compiles the org.catacombae.jparted package, "/>
+    <echo message="                  subpackages and dependencies and puts the result"/>
+    <echo message="                  in targets/jparted/lib/jparted.jar."/>
+    <echo message="  javadoc       - Creates the javadoc documentation for the project."/>
+  </target>
+  
+  
+  <target name="init">
+    <mkdir dir="${builddir}"/>
+  </target>
+  
+  <target name="clean">
+    <mkdir dir="${builddir}"/>
+    <delete dir="${builddir}"/>
+  </target>
+  
+  <target name="build-all" depends="clean,jar-all"/>
+  
+  <target name="copyresources-all" depends="init">
+    <copy todir="${resources.destdir}">
+      <fileset dir="${resources.srcdir}" includes="*.png"/>
+    </copy>
+  </target>
+  
+  <target name="compile-all" depends="init">
+    <javac srcdir="${java.source.dir}"
+	   destdir="${builddir}"
+	   includes="**"
+	   debug="true"
+	   debuglevel="${debuglevel}"
+	   encoding="iso-8859-1"
+	   source="${java.source.level}"
+	   target="${java.target.level}"
+	   deprecation="on">
+      <compilerarg value="-Xlint:unchecked"/>
+      <classpath refid="java.build.classpath"/>
+    </javac>
+  </target>
+  
+  <target name="jar-all" depends="copyresources-all,compile-all">
+    <jar destfile="${target.all.outjar}" basedir="${builddir}" manifest="${target.all.jarmanifest}"/>
+  </target>
+  
+  <target name="compile-hfsexplorer" depends="init">
+    <javac srcdir="${java.source.dir}"
+	   destdir="${builddir}"
+	   includes="org/catacombae/hfsexplorer/**"
+	   debug="true"
+	   debuglevel="${debuglevel}"
+	   encoding="iso-8859-1"
+	   source="${java.source.level}"
+	   target="${java.target.level}">
+      <classpath refid="java.build.classpath"/>
+    </javac>
+  </target>
+  
+  <target name="build-jparted" depends="clean,jar-jparted"/>
+  
+  <target name="compile-jparted" depends="init">
+    <javac srcdir="${java.source.dir}"
+	   destdir="${builddir}"
+	   includes="org/catacombae/jparted/**"
+	   debug="true"
+	   debuglevel="${debuglevel}"
+	   encoding="iso-8859-1"
+	   source="${java.source.level}"
+	   target="${java.target.level}">
+      <classpath refid="java.build.classpath"/>
+    </javac>
+  </target>
+  
+  <target name="jar-jparted" depends="compile-jparted">
+    <jar destfile="${target.jparted.outjar}" basedir="${builddir}" manifest="${target.jparted.jarmanifest}"/>
+  </target>
+  
+  <target name="javadoc">
+    <javadoc destdir="javadoc.~"
+	     packagenames="org.catacombae.*"
+	     sourcepath="${java.source.dir}"
+	     access="protected"
+             author="true"
+             version="true"
+             use="true"
+	     encoding="iso-8859-1"
+             windowtitle="HFSExplorer API">
+      
+      <link href="http://java.sun.com/j2se/1.5.0/docs/api/"/>
+      <link href="../../CatacombaeFramework/javadoc.~/"/>
+      <classpath>
+	<path refid="javadoc.classpath"/>
+      </classpath>
+    </javadoc>
+  </target>
+</project>

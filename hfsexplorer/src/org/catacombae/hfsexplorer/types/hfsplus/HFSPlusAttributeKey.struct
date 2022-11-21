@@ -1,0 +1,7 @@
+struct HFSPlusAttrKey {
+    UInt16     keyLength;       // key length (in bytes) 
+    UInt16     pad;         // set to zero 
+    UInt32     fileID;          // file associated with attribute 
+    UInt32     startBlock;      // first allocation block number for extents
+    HFSUniStr255 attrName;
+};

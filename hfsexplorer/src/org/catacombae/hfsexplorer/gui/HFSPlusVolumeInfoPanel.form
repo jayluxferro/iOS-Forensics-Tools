@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="signatureLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="signatureField" pref="316" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="versionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="versionField" pref="305" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="attributesSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="24" pref="24" max="24" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="hardwareLockBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="hardwareLockLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="noCacheBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="noCacheLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="volumeInconsistentBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="volumeInconsistentLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="idsReusedBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="idsReusedLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="journaledBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="journaledLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="softwareLockBox" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="softwareLockLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="volumeUnmountedBox" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="volumeUnmountedLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="sparedBlocksBox" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="sparedBlocksLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lastMountedVersionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lastMountedVersionField" pref="290" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="journalInfoBlockLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="journalInfoBlockField" pref="296" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="fileCountLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="fileCountField" pref="364" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="folderCountLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="folderCountField" pref="347" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="blockSizeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="blockSizeField" pref="363" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="totalBlocksLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="totalBlocksField" pref="313" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="freeBlocksLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="freeBlocksField" pref="285" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="nextAllocationLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nextAllocationField" pref="237" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="rsrcClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="rsrcClumpSizeField" pref="219" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="dataClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dataClumpSizeField" pref="247" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="nextCatalogIDLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nextCatalogIDField" pref="278" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="writeCountLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="writeCountField" pref="354" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="encodingsBitmapLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="encodingsBitmapField" pref="313" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="finderInfoSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="24" pref="24" max="24" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo2Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo2Field" pref="180" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo1Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo1Field" pref="298" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo3Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo3Field" pref="218" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo4Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo4Field" pref="201" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo5Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo5Field" pref="346" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo6Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo6Field" pref="236" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="finderInfo78Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="finderInfo78Field" pref="247" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="backupDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="modifyDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="createDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkedDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="checkedDateField" alignment="0" pref="305" max="32767" attributes="0"/>
+                          <Component id="createDateField" alignment="0" pref="305" max="32767" attributes="0"/>
+                          <Component id="modifyDateField" alignment="0" pref="305" max="32767" attributes="0"/>
+                          <Component id="backupDateField" alignment="0" pref="305" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="allocationFileSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="allocationFileClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="allocationFileClumpSizeField" pref="346" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="allocationFileLogicalSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="allocationFileLogicalSizeField" pref="342" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="allocationFileTotalBlocksLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="allocationFileTotalBlocksField" pref="338" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="allocationFileBasicExtentCountLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="allocationFileBasicExtentCountField" pref="261" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="extentsFileSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="extentsFileClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="extentsFileClumpSizeField" pref="346" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="extentsFileLogicalSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="extentsFileLogicalSizeField" pref="342" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="extentsFileTotalBlocksLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="extentsFileTotalBlocksField" pref="338" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="extentsFileBasicExtentCountLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="extentsFileBasicExtentCountField" pref="261" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="catalogFileSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="catalogFileClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="catalogFileClumpSizeField" pref="346" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="catalogFileLogicalSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="catalogFileLogicalSizeField" pref="342" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="catalogFileTotalBlocksLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="catalogFileTotalBlocksField" pref="338" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="catalogFileBasicExtentCountLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="catalogFileBasicExtentCountField" pref="261" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="attributesFileSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="attributesFileClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="attributesFileClumpSizeField" pref="346" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="attributesFileLogicalSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="attributesFileLogicalSizeField" pref="342" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="attributesFileTotalBlocksLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="attributesFileTotalBlocksField" pref="338" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="attributesFileBasicExtentCountLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="attributesFileBasicExtentCountField" pref="261" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="startupFileSectionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="startupFileClumpSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="startupFileClumpSizeField" pref="346" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="startupFileLogicalSizeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="startupFileLogicalSizeField" pref="342" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="startupFileTotalBlocksLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="startupFileTotalBlocksField" pref="338" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="startupFileBasicExtentCountLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="startupFileBasicExtentCountField" pref="261" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="signatureLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="signatureField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="versionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="versionField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="attributesSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hardwareLockBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hardwareLockLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="volumeUnmountedBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="volumeUnmountedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sparedBlocksBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sparedBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="noCacheBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="noCacheLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="volumeInconsistentBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="volumeInconsistentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="idsReusedBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idsReusedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="journaledBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="journaledLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="softwareLockBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="softwareLockLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lastMountedVersionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lastMountedVersionField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="journalInfoBlockLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="journalInfoBlockField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="createDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="createDateField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="modifyDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="modifyDateField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="backupDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="backupDateField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="checkedDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="checkedDateField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fileCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fileCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="folderCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="folderCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="blockSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="blockSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="totalBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="totalBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="freeBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="freeBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nextAllocationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nextAllocationField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rsrcClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rsrcClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="dataClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dataClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nextCatalogIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nextCatalogIDField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="writeCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="writeCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="encodingsBitmapLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="encodingsBitmapField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="finderInfoSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo1Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo2Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo3Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo3Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo4Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo4Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo5Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo5Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo6Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo6Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="finderInfo78Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finderInfo78Field" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="allocationFileSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="allocationFileLogicalSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="allocationFileLogicalSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="allocationFileClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="allocationFileClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="allocationFileTotalBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="allocationFileTotalBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="allocationFileBasicExtentCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="allocationFileBasicExtentCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="extentsFileSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="extentsFileLogicalSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="extentsFileLogicalSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="extentsFileClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="extentsFileClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="extentsFileTotalBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="extentsFileTotalBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="extentsFileBasicExtentCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="extentsFileBasicExtentCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="catalogFileSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="catalogFileLogicalSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="catalogFileLogicalSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="catalogFileClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="catalogFileClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="catalogFileTotalBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="catalogFileTotalBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="catalogFileBasicExtentCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="catalogFileBasicExtentCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="attributesFileSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="attributesFileLogicalSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="attributesFileLogicalSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="attributesFileClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="attributesFileClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="attributesFileTotalBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="attributesFileTotalBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="attributesFileBasicExtentCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="attributesFileBasicExtentCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="startupFileSectionLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="startupFileLogicalSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="startupFileLogicalSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="startupFileClumpSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="startupFileClumpSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="startupFileTotalBlocksLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="startupFileTotalBlocksField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="startupFileBasicExtentCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="startupFileBasicExtentCountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="signatureLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume signature:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="signatureField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField18"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="versionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="File system version:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="versionField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField19"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="attributesSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attributes:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="hardwareLockBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hardwareLockLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume hardware lock"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="volumeUnmountedBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="volumeUnmountedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume unmounted"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="sparedBlocksBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sparedBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume spared blocks"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="noCacheBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="noCacheLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No cache required"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="volumeInconsistentBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="volumeInconsistentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Boot volume inconsistent"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="idsReusedBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="idsReusedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Catalog node IDs reused"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="journaledBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="journaledLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume journaled"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="softwareLockBox">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+          <Insets value="[0, 0, 0, 0]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="softwareLockLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume software lock"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastMountedVersionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last mounted version:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastMountedVersionField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="journalInfoBlockLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Journal info block ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="journalInfoBlockField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="createDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date created:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="createDateField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="modifyDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date last modified:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modifyDateField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField4"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="backupDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date last backuped:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="backupDateField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField5"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkedDateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date last checked:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="checkedDateField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField6"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fileCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="File count:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fileCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField7"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="folderCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Folder count:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="folderCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField8"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="blockSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Block size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="blockSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField9"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="totalBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField10"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="freeBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of free blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="freeBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField11"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nextAllocationLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Start of next allocation search:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nextAllocationField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField12"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rsrcClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Resource fork default clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rsrcClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField13"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dataClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data fork default clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dataClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField14"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nextCatalogIDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next unused catalog ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nextCatalogIDField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField15"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="writeCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Write count:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="writeCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField16"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="encodingsBitmapLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Encodings bitmap:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="encodingsBitmapField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField17"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfoSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Finder info:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="System folder ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Startup application parent folder ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo3Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Folder ID to display at mount:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo4Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Legacy Mac OS system folder ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo5Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reserved:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo6Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mac OS X system folder ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="finderInfo78Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unique volume identifier:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo1Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo2Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo3Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo4Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField4"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo5Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField5"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo6Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField6"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="finderInfo78Field">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField7"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="allocationFileSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Allocation file:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="allocationFileLogicalSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logical size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="allocationFileClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="allocationFileTotalBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="allocationFileLogicalSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="allocationFileClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="allocationFileTotalBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="allocationFileBasicExtentCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="autoscrolls" type="boolean" value="false"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="allocationFileBasicExtentCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of basic extents:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="extentsFileSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Extents file:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="extentsFileLogicalSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logical size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="extentsFileLogicalSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="extentsFileClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="extentsFileClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="extentsFileTotalBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="extentsFileTotalBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="extentsFileBasicExtentCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of basic extents:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="extentsFileBasicExtentCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="catalogFileSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Catalog file:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="catalogFileLogicalSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logical size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="catalogFileLogicalSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="catalogFileClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="catalogFileClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="catalogFileTotalBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="catalogFileTotalBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="catalogFileBasicExtentCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of basic extents:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="catalogFileBasicExtentCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="attributesFileSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Attributes file:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="attributesFileLogicalSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logical size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="attributesFileLogicalSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="attributesFileClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="attributesFileClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="attributesFileTotalBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="attributesFileTotalBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="attributesFileBasicExtentCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of basic extents:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="attributesFileBasicExtentCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="startupFileSectionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Startup file:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="startupFileLogicalSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logical size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="startupFileLogicalSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="startupFileClumpSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clump size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="startupFileClumpSizeField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="startupFileTotalBlocksLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total blocks:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="startupFileTotalBlocksField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField3"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="startupFileBasicExtentCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of basic extents:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="startupFileBasicExtentCountField">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
