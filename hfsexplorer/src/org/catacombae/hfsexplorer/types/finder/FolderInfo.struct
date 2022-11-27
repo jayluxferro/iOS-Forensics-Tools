@@ -1,6 +1,0 @@
-struct FolderInfo {
-  Rect      windowBounds;
-  UInt16    finderFlags;
-  Point     location;
-  UInt16    reservedField;
-};

@@ -1,6 +1,0 @@
-struct Rect {
-  SInt16              top;
-  SInt16              left;
-  SInt16              bottom;
-  SInt16              right;
-};

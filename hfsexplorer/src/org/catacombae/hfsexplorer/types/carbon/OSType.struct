@@ -1,3 +1,0 @@
-struct OSType {
-        Char        osType[4];
-};

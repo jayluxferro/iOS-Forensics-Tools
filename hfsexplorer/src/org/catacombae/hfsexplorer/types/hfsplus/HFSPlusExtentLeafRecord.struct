@@ -1,4 +1,0 @@
-struct HFSPlusExtentLeafRecord {
-  HFSPlusExtentKey       key;
-  HFSPlusExtentRecord    recordData;
-};

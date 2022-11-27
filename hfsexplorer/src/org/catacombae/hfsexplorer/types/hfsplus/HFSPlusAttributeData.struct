@@ -1,6 +1,0 @@
-struct HFSPlusAttrData {
-    UInt32    recordType;   // == kHFSPlusAttrInlineData
-    UInt32    reserved[2];
-    UInt32    attrSize;     // size of attribute data in bytes 
-    UInt8     attrData[2];  // variable length 
-};

@@ -1,4 +1,0 @@
-struct ResourceName {
-    UInt8   nameLength;
-    Char    name[2];
-};
