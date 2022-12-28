@@ -1,1 +1,8 @@
 .DS_Store
+*.ipsw
+/resources
+/.idea
+/__pycache__
+.env
+/.venv
+/.vscode
